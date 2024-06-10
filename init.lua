@@ -17,4 +17,4 @@ vim.api.nvim_set_keymap("n", "<leader><Right>", "<C-w>l", { noremap = true, sile
 
 vim.api.nvim_set_keymap("n", "<Space><C-Left>", ":bprevious<CR>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<Space><C-Right>", ":bnext<CR>", { noremap = true, silent = true })
-
+vim.opt.clipboard = "unnamedplus"
